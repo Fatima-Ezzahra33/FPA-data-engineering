@@ -1,0 +1,13 @@
+# Verified on a clean clone, 2026-09-10 (CPU, Python 3.12) with:
+#   numpy 2.4.4, pandas 3.0.2, scipy 1.17.1, statsmodels 0.15.0,
+#   lightgbm 4.7.0, torch 2.14.0
+# Generator MD5 and all deterministic baselines reproduce exactly on these versions.
+# CPU-only users: `pip install torch --index-url https://download.pytorch.org/whl/cpu`
+# avoids ~3 GB of CUDA libraries that the default PyPI torch wheel pulls in.
+numpy
+pandas
+scipy>=1.10
+statsmodels>=0.14
+lightgbm
+torch
+matplotlib   # plot_search_traces.py (Figure 4) only

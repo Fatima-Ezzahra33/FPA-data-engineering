@@ -1,0 +1,20 @@
+HKONT,TXT50,CATEGORY,NORMAL_SIDE,SEASONALITY,PL_RATIO
+400000,Revenue - Product,REVENUE,H,revenue,0.7
+410000,Revenue - Services,REVENUE,H,revenue,0.3
+500000,COGS - Material,COGS,S,cogs,0.42
+510000,COGS - Subcontracting,COGS,S,cogs,0.13
+600000,Personnel - Salaries,PERSONNEL,S,flat,0.175
+610000,Personnel - Bonus,PERSONNEL,S,bonus,0.02
+620000,Personnel - Benefits,PERSONNEL,S,flat,0.035
+700000,Travel & Entertainment,OPEX,S,travel,0.015
+710000,Marketing,OPEX,S,marketing,0.03
+720000,Facilities & Rent,OPEX,S,flat,0.025
+730000,Utilities,OPEX,S,utilities,0.008
+740000,IT & Software,OPEX,S,flat,0.022
+750000,Professional Services,OPEX,S,audit,0.012
+780000,Depreciation,DEPRECIATION,S,flat,0.04
+140000,Accounts Receivable,BALANCE_SHEET,H,flat,0.0
+160000,Accounts Payable,BALANCE_SHEET,H,flat,0.0
+170000,Payroll Clearing,BALANCE_SHEET,H,flat,0.0
+199000,Accumulated Depreciation,BALANCE_SHEET,H,flat,0.0
+490000,Accrued Liabilities,BALANCE_SHEET,H,flat,0.0
