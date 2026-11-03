@@ -11,3 +11,4 @@ statsmodels>=0.14
 lightgbm
 torch
 matplotlib   # plot_search_traces.py (Figure 4) only
+confluent-kafka>=2.6,<3
