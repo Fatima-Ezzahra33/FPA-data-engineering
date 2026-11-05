@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="DisplayModuleName">
+    <option name="name" value="spark-build" />
+  </component>
+  <component name="SbtModule">
+    <option name="buildForURI" value="file:/$MODULE_DIR$/../../../" />
+    <option name="imports" value="SUB:DOLLARWrapcc4e684214.`root`, _root_.sbt.*, _root_.sbt.BareBuildSyntax.*, _root_.sbt.Keys.*, _root_.sbt.ScriptedPlugin.autoImport.*, _root_.sbt.ScriptedPlugin.autoImport.given, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport.*, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport.given, _root_.sbt.plugins.DependencyTreePlugin.autoImport.*, _root_.sbt.plugins.DependencyTreePlugin.autoImport.given, _root_.sbt.given, _root_.sbt.librarymanagement.LibraryManagementCodec.given, _root_.sbt.nio.Keys.*, _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.DependencyTreePlugin, _root_.sbt.util.CacheImplicits.given, _root_.scala.xml.{TopScope=&gt;SUB:DOLLARscope}" />
+    <option name="resolvers" value="C:\Users\Asus\.ivy2\cache|ivy|true|Local cache, https://repo1.maven.org/maven2/|maven|public" />
+  </component>
+</module>

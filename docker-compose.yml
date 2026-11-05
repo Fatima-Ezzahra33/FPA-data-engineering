@@ -34,6 +34,81 @@ services:
 
     restart: unless-stopped
 
+  spark-master:
+    image: apache/spark:4.2.0
+    hostname: spark-master
+
+    entrypoint: ["/opt/spark/bin/spark-class"]
+    command:
+      - org.apache.spark.deploy.master.Master
+      - --host
+      - spark-master
+      - --port
+      - "7077"
+      - --webui-port
+      - "8080"
+
+    ports:
+      - "127.0.0.1:8080:8080"
+
+    networks:
+      - fpa-network
+
+    restart: unless-stopped
+
+  spark-worker:
+    image: apache/spark:4.2.0
+    hostname: spark-worker
+
+    entrypoint: ["/opt/spark/bin/spark-class"]
+    command:
+      - org.apache.spark.deploy.worker.Worker
+      - --cores
+      - "2"
+      - --memory
+      - "2g"
+      - --webui-port
+      - "8081"
+      - spark://spark-master:7077
+
+    ports:
+      - "127.0.0.1:8081:8081"
+
+    depends_on:
+      - spark-master
+
+    networks:
+      - fpa-network
+
+    restart: unless-stopped
+
+
+  spark-submit:
+    image: apache/spark:4.2.0
+    hostname: spark-submit
+
+    profiles:
+      - tools
+
+    entrypoint: ["/opt/spark/bin/spark-submit"]
+
+    working_dir: /opt/fpa
+
+    environment:
+      HOME: /tmp
+      SPARK_LOCAL_HOSTNAME: spark-submit
+
+    volumes:
+      - ./spark/dist:/opt/fpa/dist:ro
+
+    depends_on:
+      - spark-master
+      - spark-worker
+      - kafka
+
+    networks:
+      - fpa-network
+
 volumes:
   kafka-data:
 

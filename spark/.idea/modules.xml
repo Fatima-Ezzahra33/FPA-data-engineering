@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark/fpa-spark.iml" filepath="$PROJECT_DIR$/.idea/modules/spark/fpa-spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark/fpa-spark.fpa-spark-build.iml" filepath="$PROJECT_DIR$/.idea/modules/spark/fpa-spark.fpa-spark-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark/fpa-spark.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spark/fpa-spark.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark/fpa-spark.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spark/fpa-spark.test.iml" />
+    </modules>
+  </component>
+</project>

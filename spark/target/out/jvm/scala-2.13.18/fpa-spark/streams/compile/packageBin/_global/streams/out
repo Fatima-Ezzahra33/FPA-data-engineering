@@ -1,0 +1,12 @@
+[debug] Packaging C:\Users\Asus\Desktop\FPA\fpa-engineering\spark\target\out\jvm\scala-2.13.18\fpa-spark\fpa-spark_2.13-0.1.0-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	fpa\EventSchema$.class
+[debug] 	  C:\Users\Asus\Desktop\FPA\fpa-engineering\spark\target\out\jvm\scala-2.13.18\fpa-spark\classes\fpa\EventSchema$.class
+[debug] 	fpa\EventSchema.class
+[debug] 	  C:\Users\Asus\Desktop\FPA\fpa-engineering\spark\target\out\jvm\scala-2.13.18\fpa-spark\classes\fpa\EventSchema.class
+[debug] 	fpa\KafkaConsumer$.class
+[debug] 	  C:\Users\Asus\Desktop\FPA\fpa-engineering\spark\target\out\jvm\scala-2.13.18\fpa-spark\classes\fpa\KafkaConsumer$.class
+[debug] 	fpa\KafkaConsumer.class
+[debug] 	  C:\Users\Asus\Desktop\FPA\fpa-engineering\spark\target\out\jvm\scala-2.13.18\fpa-spark\classes\fpa\KafkaConsumer.class
+[debug] Done packaging.
+[debug] wrote ${OUT}/jvm/scala-2.13.18/fpa-spark/fpa-spark_2.13-0.1.0-SNAPSHOT.jar

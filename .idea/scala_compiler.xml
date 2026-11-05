@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="fpa-engineering,fpa-engineering.main,fpa-engineering.test,fpa-spark,fpa-spark.main,fpa-spark.test,spark,spark.main,spark.main~1,spark.test,spark.test~1" />
+  </component>
+</project>

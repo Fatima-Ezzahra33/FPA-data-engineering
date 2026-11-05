@@ -1,0 +1,12 @@
+[debug] > Exec(clean; package, None, None)
+[debug] > Exec(clean, None, None)
+[debug] Evaluating tasks: clean
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] elapsed time: 0 s, cache 0%, 2 onsite tasks
+[debug] > Exec(package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\Asus\Desktop\FPA\fpa-engineering\spark\target\out\jvm\scala-2.13.18\fpa-spark\classes ...
+[info] done compiling
+[success] elapsed time: 11 s, cache 53%, 8 disk cache hits, 7 onsite tasks
+[debug] > Exec(idea-shell, None, None)
