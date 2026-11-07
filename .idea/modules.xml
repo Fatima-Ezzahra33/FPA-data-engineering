@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/fpa-engineering.iml" filepath="$PROJECT_DIR$/.idea/fpa-engineering.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark/.idea/modules/spark/fpa-spark.fpa-spark-build.iml" filepath="$PROJECT_DIR$/spark/.idea/modules/spark/fpa-spark.fpa-spark-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark/.idea/modules/spark/fpa-spark.main.iml" filepath="$PROJECT_DIR$/spark/.idea/modules/spark/fpa-spark.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark/.idea/modules/spark/fpa-spark.test.iml" filepath="$PROJECT_DIR$/spark/.idea/modules/spark/fpa-spark.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark/.idea/modules/spark/spark.main.iml" filepath="$PROJECT_DIR$/spark/.idea/modules/spark/spark.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark/.idea/modules/spark/spark.spark-build.iml" filepath="$PROJECT_DIR$/spark/.idea/modules/spark/spark.spark-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark/.idea/modules/spark/spark.test.iml" filepath="$PROJECT_DIR$/spark/.idea/modules/spark/spark.test.iml" />

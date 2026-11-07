@@ -1,12 +1,11 @@
 [debug] Created transactional ClassFileManager with tempDir = C:\Users\Asus\Desktop\FPA\fpa-engineering\spark\target\out\jvm\scala-2.13.18\fpa-spark\classes.bak
 [debug] About to delete class files:
+[debug] 	GoldProcessor$.class
+[debug] 	GoldProcessor.class
 [debug] We backup class files:
-[debug] Created transactional ClassFileManager with tempDir = C:\Users\Asus\Desktop\FPA\fpa-engineering\spark\target\out\jvm\scala-2.13.18\fpa-spark\classes.bak
-[debug] About to delete class files:
-[debug] We backup class files:
+[debug] 	GoldProcessor$.class
+[debug] 	GoldProcessor.class
 [debug] Registering generated classes:
-[debug] 	EventSchema$.class
-[debug] 	EventSchema.class
-[debug] 	KafkaConsumer$.class
-[debug] 	KafkaConsumer.class
+[debug] 	GoldProcessor.class
+[debug] 	GoldProcessor$.class
 [debug] Removing the temporary directory used for backing up class files: C:\Users\Asus\Desktop\FPA\fpa-engineering\spark\target\out\jvm\scala-2.13.18\fpa-spark\classes.bak

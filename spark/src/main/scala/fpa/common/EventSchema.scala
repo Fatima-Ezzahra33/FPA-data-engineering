@@ -1,4 +1,4 @@
-package fpa
+package fpa.common
 
 import org.apache.spark.sql.types._
 

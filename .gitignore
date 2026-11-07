@@ -1,4 +1,41 @@
+# Python
 .fpa-venv/
+.venv/
+venv/
+env/
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and secrets
 .env
+.env.*
+!.env.example
+*.local
+
+# Scala / sbt / IDE build metadata
+target/
+spark/target/
+spark/project/target/
+spark/project/project/
+spark/.bsp/
+.bsp/
+.idea/
+spark/.idea/
+*.iml
+.metals/
+.bloop/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Locally assembled deployment artifacts
+spark/dist/*.jar
+!spark/dist/.gitkeep

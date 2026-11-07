@@ -1,1 +1,1 @@
-["fpa.KafkaConsumer"]
+["fpa.bronze.KafkaConsumer","fpa.bronze.ReferenceIngestion","fpa.gold.GoldProcessor","fpa.silver.ReferenceProcessor","fpa.silver.SilverProcessor","fpa.silver.SilverStreaming"]
